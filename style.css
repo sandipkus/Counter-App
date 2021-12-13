@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(217, 217, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(6, 136, 175);
+    border: 10px solid rgb(117, 35, 35);
+    border: hidden;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgb(24, 23, 23);
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+#number{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    padding: 2px;
+    border: hidden;
+    box-shadow: 0px 4px 7px rgb(24, 23, 23);
+}
+
+#increment{
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 7px;
+    border: hidden;
+    font-size: 25px;
+    box-shadow: 0px 4px 7px rgb(24, 23, 23);
+    cursor: pointer;
+    background-color: rgb(2, 247, 255);
+    color: rgb(70, 67, 67);
+}
+
+#increment:hover{
+    background-color: rgb(35, 182, 187);
+}
+
+#decrement{
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 7px;
+    border: hidden;
+    font-size: 25px;
+    box-shadow: 0px 4px 7px rgb(24, 23, 23);
+    cursor: pointer;
+    background-color: rgb(2, 247, 255);
+    color: rgb(70, 67, 67);
+}
+
+#decrement:hover{
+    background-color: rgb(35, 182, 187);
+}
